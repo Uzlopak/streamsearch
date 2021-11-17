@@ -1,9 +1,9 @@
 {
-  "name": "streamsearch",
+  "name": "@vscode/streamsearch",
   "version": "0.1.2",
   "author": "Brian White <mscdex@mscdex.net>",
   "description": "Streaming Boyer-Moore-Horspool searching for node.js",
-  "main": "./lib/sbmh",
+  "main": "./dist/sbmh",
   "engines": {
     "node": ">=0.8.0"
   },
@@ -17,12 +17,12 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "http://github.com/mscdex/streamsearch/raw/master/LICENSE"
+      "url": "http://github.com/microsoft/streamsearch/raw/master/LICENSE"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/mscdex/streamsearch.git"
+    "url": "http://github.com/microsoft/streamsearch.git"
   },
   "scripts": {
     "watch": "tsc --watch",
