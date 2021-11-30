@@ -85,12 +85,7 @@ export default class SBMH {
         ) {
           this._lookbehind_size = 0;
           ++this.matches;
-          if (pos > -this._lookbehind_size)
-            this._onInfo(
-              true,
-              lookbehind.subarray(0, this._lookbehind_size + pos)
-            );
-          else this._onInfo(true);
+          this._onInfo(true);
 
           return (this._bufpos = pos + needle_len);
         } else pos += occ[ch];
